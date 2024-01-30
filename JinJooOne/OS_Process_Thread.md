@@ -58,6 +58,18 @@
 - 비블록
     - 블록 상태가 해제되어 CPU를 할당 받을 수 있는 상태
 
+### 생성과 소멸에 대하여
+
+- 프로세스
+  - 프로세스의 생성과 소멸은 큰 오버헤드가 발생한다. 오버헤드가 큰 이유로는 새로운 메모리 공간을 할당하고 초기화하는 작업 때문이다.
+- 쓰레드
+  - 쓰레드는 프로세스와 다르게 메모리 공간에 대한 제약이 덜하다. 즉 같은 프로세스의 자원을 공유하기 때문에 생성과 소멸에 대한 오버헤드가 적다. 
+
 ## 메모리 공유 차이
 
 ![Untitled](https://private-user-images.githubusercontent.com/84346055/300841080-5897cf1d-dcb8-4ee5-b107-212a99087649.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY2MjQ3OTIsIm5iZiI6MTcwNjYyNDQ5MiwicGF0aCI6Ii84NDM0NjA1NS8zMDA4NDEwODAtNTg5N2NmMWQtZGNiOC00ZWU1LWIxMDctMjEyYTk5MDg3NjQ5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTMwVDE0MjEzMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA5OTM2Zjc2NTFmODQxNDk0MDUzMDZlOTg0OWNkYWE5YTc0OWM3YWU3OTgxMTczOWFkZDU0ZTEyMDkxMjBmMzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.je-27dljrjYhM9EA0cG_krNbCbVd_SHTwSv2g_oTTlw)
+
+### 프로세스
+- 프로세스는 독립된 메모리 공간을 가지고 있어, 프로세스 간에 직접적인 데이터 공유가 어렵다. 프로세스 간 통신(IPC) 메커니즘을 사용하여 데이터를 교환 가능.
+### 쓰레드
+- 쓰레드는 같은 프로세스 내에 속해 있으므로, 프로세스 내의 자원을 공유할 수 있다. 이는 데이터 및 자원에 대한 효율적인 공유를 가능.
