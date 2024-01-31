@@ -1,6 +1,6 @@
 # 프로세스와 스레드의 차이
 
-https://www.notion.so/0b8489acd2084246b6aa081c76b2eca3
+https://www.notion.so/0b8489acd2084246b6aa081c76b2eca3?pvs=4
 
 ### [프로세스와 스레드]
 
