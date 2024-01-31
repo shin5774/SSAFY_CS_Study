@@ -101,6 +101,8 @@ FQDN을 인터넷 프로토콜인 IP로 바꿔주는 시스템이다. 이는 DNS
 - 양쪽 모두 데이터를 전송할 준비가 되었다는 것을 보장하고, 실제로 데이터 전달이 시작하기 전에 한 쪽이 다른 쪽이 준비되었다는 것을 알 수 있도록 한다.
 - 즉, TCP/IP 프로토콜을 이용해서 통신을 하는 응용 프로그램이 데이터를 전송하기 전에 먼저 정확한 전송을 보장하기 위해 상대방 컴퓨터와 사전에 세션을 수립하는 과정을 의미한다.
 
+![image](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/b36ee1d7-92ae-4ab2-b7bb-526db1350b60)
+
 A 프로세스(Client)가 B 프로세스(Server)에 연결을 요청
 
 **a. A -> B: SYN**
@@ -123,8 +125,8 @@ A 프로세스(Client)가 B 프로세스(Server)에 연결을 요청
 - PORT 상태 - B: ESTABLISHED, A: ESTABLISHED
 
 ### 4-way handshaking (연결 해제 과정)
+![image](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/94d8cd06-0389-4cdb-86f9-360cb402abcd)
 
-![https://velog.velcdn.com/images%2Fragnarok_code%2Fpost%2F1804bed2-b0e2-4b0b-b622-84ea78c6fb96%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202021-11-21%20%EC%98%A4%ED%9B%84%202.36.17.png](https://velog.velcdn.com/images%2Fragnarok_code%2Fpost%2F1804bed2-b0e2-4b0b-b622-84ea78c6fb96%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202021-11-21%20%EC%98%A4%ED%9B%84%202.36.17.png)
 
 ###4-way handshake란 ?
 
