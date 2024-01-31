@@ -14,7 +14,7 @@
     
     프로세스가 할당받은 자원을 이용하는 실행 흐름의 단위
     
-    ![Untitled](./[img]/[img] 프로세스와_스레드의_차이/Untitled.png)
+    ![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80_%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98_%EC%B0%A8%EC%9D%B4/Untitled.png)
     
     : 하나의 프로그램은 하나 이상의 프로세스를 가지고 있고, 
     
@@ -37,7 +37,7 @@
 
 ### [프로세스의 메모리 구조]
 
-![Untitled](./[img]/[img] 프로세스와_스레드의_차이/Untitled 1.png)
+![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80_%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98_%EC%B0%A8%EC%9D%B4/Untitled%201.png)
 
 - **스택과 힙**
     
@@ -104,7 +104,7 @@
 
 ### [스레드의 메모리 구조]
 
-![Untitled](./[img]/[img] 프로세스와_스레드의_차이/Untitled 2.png)
+![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80_%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98_%EC%B0%A8%EC%9D%B4/Untitled%202.png)
 
 여러 개의 스레드는 각각 레지스터와 스택을 할당받고,
 
@@ -122,7 +122,7 @@
 
 ### [프로세스와 컴파일 과정]
 
-![Untitled](./[img]/[img] 프로세스와_스레드의_차이/Untitled 3.png)
+![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80_%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98_%EC%B0%A8%EC%9D%B4/Untitled%203.png)
 
 - 프로세스
     
@@ -207,7 +207,7 @@
 
 ### [프로세스 상태 변이]
 
-![Untitled](./[img]/[img] 프로세스와_스레드의_차이/Untitled 4.png)
+![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80_%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98_%EC%B0%A8%EC%9D%B4/Untitled%204.png)
 
 ### [스레드의 상태]
 
