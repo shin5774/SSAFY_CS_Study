@@ -44,7 +44,7 @@ ORDER BY절과 GROUP By절 WHERE 절 등이 사용되는 작업이 더욱 효율
 
 Root Node/ Branch Node /Leaf Node으로 구성되어 계층적 구조를 가지고 있다.
 
-특징
+**특징**
 
 Branch Node와 LeafNode에 인덱스(Key)와 데이터(Value)를 저장할 수 있다.
 

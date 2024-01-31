@@ -126,7 +126,7 @@ A 프로세스(Client)가 B 프로세스(Server)에 연결을 요청
 
 ![https://velog.velcdn.com/images%2Fragnarok_code%2Fpost%2F1804bed2-b0e2-4b0b-b622-84ea78c6fb96%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202021-11-21%20%EC%98%A4%ED%9B%84%202.36.17.png](https://velog.velcdn.com/images%2Fragnarok_code%2Fpost%2F1804bed2-b0e2-4b0b-b622-84ea78c6fb96%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202021-11-21%20%EC%98%A4%ED%9B%84%202.36.17.png)
 
-4-way handshake란 ?
+###4-way handshake란 ?
 
 - TCP의 연결을 해제(Connection Termination)하는 과정
 
