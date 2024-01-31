@@ -1,5 +1,7 @@
 # 구글을 접속할 때 일어나는 일
 
+https://www.notion.so/e62d1a5feb934a34b62fa346a112c442?pvs=4
+
 ### 1. 웹주소([www.google.com](http://www.google.com))를 브라우저 주소창에 입력한다.
 
 브라우저는 사용자가 주소창에 입력한 정보가 사이트 주소인지 검색어인지 확인한다.
