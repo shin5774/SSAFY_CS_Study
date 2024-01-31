@@ -14,7 +14,7 @@
 
 균형 트리
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/93e932aa-238e-4c21-92c0-b3a86388ec72/4c27357f-74a3-4536-86dc-429fc4245413/Untitled.png)
+![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20%EC%9D%B8%EB%8D%B1%EC%8A%A4_%EC%82%AC%EC%9A%A9_%EC%9D%B4%EC%9C%A0/Untitled.png)
 
 - 탐색 과정 - 57 찾기
     
@@ -43,7 +43,7 @@ B+트리 : 브랜치 노드에 key만 저장.
     
     트리 깊이가 리프 노드 수에 비해 느리게 성장
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/93e932aa-238e-4c21-92c0-b3a86388ec72/d60d286b-dd35-44ce-9d5c-8665d72ed9c9/Untitled.png)
+    ![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20%EC%9D%B8%EB%8D%B1%EC%8A%A4_%EC%82%AC%EC%9A%A9_%EC%9D%B4%EC%9C%A0/Untitled%201.png)
     
     일반적으로 인덱스가 한 깊이씩 증가할 때마다 인덱스 항목의 수는 최대 4배씩 증가
     
