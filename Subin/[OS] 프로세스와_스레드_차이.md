@@ -14,7 +14,7 @@
     
     프로세스가 할당받은 자원을 이용하는 실행 흐름의 단위
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/93e932aa-238e-4c21-92c0-b3a86388ec72/783ff0a7-b08c-41c5-abf3-8e2d3370dc8c/Untitled.png)
+    ![Untitled](./[img]/[img] 프로세스와_스레드의_차이/Untitled.png)
     
     : 하나의 프로그램은 하나 이상의 프로세스를 가지고 있고, 
     
@@ -37,7 +37,7 @@
 
 ### [프로세스의 메모리 구조]
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/93e932aa-238e-4c21-92c0-b3a86388ec72/454f16f7-b3b8-48ec-a450-0ed977034439/Untitled.png)
+![Untitled](./[img]/[img] 프로세스와_스레드의_차이/Untitled 1.png)
 
 - **스택과 힙**
     
@@ -104,7 +104,7 @@
 
 ### [스레드의 메모리 구조]
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/93e932aa-238e-4c21-92c0-b3a86388ec72/2dccd93d-1cd8-4e2d-b126-a7bb08e6bc84/Untitled.png)
+![Untitled](./[img]/[img] 프로세스와_스레드의_차이/Untitled 2.png)
 
 여러 개의 스레드는 각각 레지스터와 스택을 할당받고,
 
@@ -122,7 +122,7 @@
 
 ### [프로세스와 컴파일 과정]
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/93e932aa-238e-4c21-92c0-b3a86388ec72/3cbc7991-fd3a-43d8-9eed-cc1ffd0f79f6/Untitled.png)
+![Untitled](./[img]/[img] 프로세스와_스레드의_차이/Untitled 3.png)
 
 - 프로세스
     
@@ -207,7 +207,7 @@
 
 ### [프로세스 상태 변이]
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/93e932aa-238e-4c21-92c0-b3a86388ec72/87ddb0ad-05e6-40ab-8d0b-81d57ab8d2f5/Untitled.png)
+![Untitled](./[img]/[img] 프로세스와_스레드의_차이/Untitled 4.png)
 
 ### [스레드의 상태]
 
