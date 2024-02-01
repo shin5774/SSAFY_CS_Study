@@ -30,7 +30,8 @@
 | 생성 (new) | 준비 (ready) | 수행 (running) | 블록 / 대기 | 종료 (terminated) |
 | --- | --- | --- | --- | --- |
 
-![Untitled](https://private-user-images.githubusercontent.com/84346055/301166806-88d0594d-3012-469b-af25-59b34eaa5806.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3MDYzNjMsIm5iZiI6MTcwNjcwNjA2MywicGF0aCI6Ii84NDM0NjA1NS8zMDExNjY4MDYtODhkMDU5NGQtMzAxMi00NjliLWFmMjUtNTliMzRlYWE1ODA2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTMxVDEzMDEwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU3YjFlOTE5MDM5OGM5ZTFiZDg5OTk1ODY3OGYwZDZiMjRlMmJmZTkyMDBmZWU0ZTRmOGMyMWM0NDlhNzM3YzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.8YMuK11u24aI-TKPik0bk2k7JE1cr4S1amr-Bo7T7VU)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/a88c4602-2f90-41a3-ad77-0d20fdf88b4c)
+
 
 - **생성**
     - 생성되었지만 OS에 의해 수행 가능한 프로세스 풀에 진입하지 않은 상태 (주기억장치에 적재되지 않은 상태)
@@ -47,7 +48,8 @@
 > 프로세스처럼 쓰레드도 수행 상태를 가진다. 하지만 상태에 대한 정의에 차이가 존재한다.
 >
 
-![image1](https://private-user-images.githubusercontent.com/84346055/301166822-bf7a4dbc-9a48-4698-ab5f-24883f3aa69c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3MDYzNjMsIm5iZiI6MTcwNjcwNjA2MywicGF0aCI6Ii84NDM0NjA1NS8zMDExNjY4MjItYmY3YTRkYmMtOWE0OC00Njk4LWFiNWYtMjQ4ODNmM2FhNjljLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTMxVDEzMDEwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVjMjg3ZTg5YzBmOTM5MWM0Njg0MGM4NWE5NTM2YTI1OTBjZjRlMzQzZWU0MjRkZGFjODI2ZWE3MzgwMmRjNmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.AUsIzr5GtXZgVJ-D12Kgy7RyltTCt32VyMQz3xtPbtg)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/2364413d-bc88-4ab8-aab6-31fe2b820209)
+
 | 생성 (Spawn) | 블록 (Block) | 비블록 (Unblock) | 종료 (terminated) |
 | --- | --- | --- | --- |
 - 생성
@@ -67,7 +69,8 @@
 ## 메모리 공유 차이
 
 
-![image2](https://private-user-images.githubusercontent.com/84346055/301166826-76418790-44c2-4fe5-9c8c-67639319702a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3MDYzNjMsIm5iZiI6MTcwNjcwNjA2MywicGF0aCI6Ii84NDM0NjA1NS8zMDExNjY4MjYtNzY0MTg3OTAtNDRjMi00ZmU1LTljOGMtNjc2MzkzMTk3MDJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTMxVDEzMDEwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIyZTZmYjgyNTNjOWU5NzY3MmUyNjc1MTc3OGU5ZDViNGFiMmJhOWQyMWJkOTY4ZTE5NTcxZTk4MmU4NjdjZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.hrR4j2zqf2EwA2Jyd29DBVqhZZSEgLqkuDtXQkdbnfg)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/bd9b6b12-2ffb-4a23-bce8-816f4f7e60c6)
+
 ### 프로세스
 - 프로세스는 독립된 메모리 공간을 가지고 있어, 프로세스 간에 직접적인 데이터 공유가 어렵다. 프로세스 간 통신(IPC) 메커니즘을 사용하여 데이터를 교환 가능.
 ### 쓰레드
