@@ -7,7 +7,8 @@
 
 ### TCP / IP 프로토콜
 
-![Untitled](TCP%20&%20UDP%20e4739f7015e6489f95c342a580177159/Untitled.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/9840c555-630c-4d47-b086-7bfbadf2cf30)
+
 
 - 데이터 전송과 관련된 프로토콜 스택은 흔히 **OSI 7계층**으로 분류한다. 하지만 전송이라는 관점에서 **TCP/IP 프로토콜**이라는 이름으로 4계층으로 분류하기도 한다.
 
@@ -105,7 +106,7 @@
 - **다중화 (Multiplexing)**
     - (**송신 측**) 출발지 호스트에서 소켓으로부터 데이터를 모아 세스먼트를 생성하기 위해 데이터의 헤더 정보로 캡슐화하고 네트워크 계층으로 전달하는 작업
 
-![Untitled](TCP%20&%20UDP%20e4739f7015e6489f95c342a580177159/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/7f7c3211-ced9-4f34-81cc-1189b73e7cea)
 
 - 다중화와 역다중화를 위해서는 ?
     - 어디서 보내는지 ? + 어디로 가는지 ? 에 대한 정보가 필요하다.
@@ -131,8 +132,10 @@
 
 - UDP
 
-![Untitled](TCP%20&%20UDP%20e4739f7015e6489f95c342a580177159/Untitled%202.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/348e2657-b3ef-4c2e-a985-f5ea0511d55e)
+
 
 - TCP
 
-![Untitled](TCP%20&%20UDP%20e4739f7015e6489f95c342a580177159/Untitled%203.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/e6aeb3d8-29dc-4b17-b1a2-ffad1c248b71)
+
