@@ -5,6 +5,8 @@
 > TCP와 UDP의 차이점에 대하여 설명
 >
 
+[노션](https://daisy-atmosphere-561.notion.site/TCP-UDP-e4739f7015e6489f95c342a580177159?pvs=4)
+
 ### TCP / IP 프로토콜
 
 ![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/9840c555-630c-4d47-b086-7bfbadf2cf30)
