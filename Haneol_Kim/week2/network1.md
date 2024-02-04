@@ -20,7 +20,7 @@
 - 전이중(Full-Duplex), 점대점(Point to Point) 방식.
 - TCP 헤더가 붙은 데이터를 세그먼트라고 한다.
 
-![헤더.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ad6f97d0-173f-4a2a-be59-7d170c4d1666/c8b17853-5fac-4e7e-8b5b-5c18828a2ed1/%ED%97%A4%EB%8D%94.png)
+![헤더](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/46460a66-e16f-4e64-ae27-92d68f931710)
 
 ### 포트번호
 
@@ -50,15 +50,15 @@ TCP헤더에는 출발지 포트번호와 목적지 포트번호가 존재한다
 
 TCP 헤더에서 표현할수 있는 윈도우 크기의 최대치는 2^16이다. 하지만 이는 옛날 기준으로 당연히 부족하다 그래서 3way hand shake때만 window의 scale값을 보내줘서 윈도우 사이즈가 크다는것을 알린다.
 
-![슬라이딩1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ad6f97d0-173f-4a2a-be59-7d170c4d1666/05d6ae62-6b9f-4d61-ad26-e6deab534fd4/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%94%A91.png)
+![슬라이딩1](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/ce552eb2-f9a2-4427-89eb-2ff85fa26347)
 
-![수신2.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ad6f97d0-173f-4a2a-be59-7d170c4d1666/22459b64-d551-4fab-b199-309b2e4aa474/%EC%88%98%EC%8B%A02.png)
+![수신2](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/44e68760-0c82-4de4-aa7b-4fa74952eba9)
 
 ## 오류제어
 
 ## Stop And Wait
 
-!https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2F65c4bf54-4665-4036-b148-372780555a98%2Fimage.png
+![확인 응답](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/a924ad4a-e77b-46b9-947a-6d3ead30c207)
 
 송신 측에서 패킷을 보내고, 보낸 패킷에 대한 응답이 오면 다음 패킷을 보내는 방식이기 때문에 만약 packet2를 보낸 후 timeout 이 발생한다면, 즉 보낸 packet 2 에 대한 응답이 없다면, 이를 다시 전송하면 되는 것이다!
 
@@ -78,8 +78,7 @@ ARQ를 이용한 오류 제어 방식엔 크게 두가지, **`Go Back N`과 `S
 
 ## Go Back N
 
-!https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2F2e5a8940-7d93-48bc-beed-0a5918fccc91%2Fimage.png
-
+![gbn](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/690ceb30-5b43-471d-bcfc-10db94784230)
 Go Back N 에선, 송신측에서 여러개의 데이터를 연속적으로 보내다가 **오류가 발생한 데이터부터 다시 재전송하는 방식**을 사용한다!
 
 위 그림에서, 송신측에서 0~2 패킷을 보낸 후 수신측은 이를 정상적으로 받은 후 송신측에게 ACK 3을 전송해 3부터 전송하면 된다고 알린다.
@@ -94,7 +93,7 @@ Go Back N 에선, 송신측에서 여러개의 데이터를 연속적으로 보�
 
 이름처럼 오류가 발생한 데이터만을 골라서, 재전송하는 방식이다!
 
-!https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2F2def564a-111b-477e-a3ae-d182fdc0f477%2Fimage.png
+![sr](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/2f08b554-569d-4a44-812b-f758f9bc8ece)
 
 위와 동일하게 4번 패킷에서 오류가 발생했고 이를 수신측이 송신측에 알리지만, 수신측은 이미 받은 5번 데이터를 폐기 하지 않는다!
 
@@ -133,12 +132,12 @@ TCP 혼잡제어 알고리즘(TCP congestion control algorithm)은 다음의 중
 
 ### 1. 슬로우 스타트
 
-!https://velog.velcdn.com/images%2Fchullll%2Fpost%2Fa721c0b1-9ec8-4bdf-bd28-2ec540def9e6%2Fimage.png
+![sl1](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/b8b6266c-bc69-44d7-a422-b2dd6d718198)
 
 - 전송 성공 시 ACK 패킷마다 cwnd를 1씩 증가시킨다. 즉, 한 주기가 끝나고 나면 cwnd는 2배배가 된다.
 - 혼잡 현상이 발생하면 cwnd 를 1로 떨어뜨린다.
 
-!https://velog.velcdn.com/images%2Fchullll%2Fpost%2Fb1c1e748-29cf-4970-bcac-0422df0fd0c5%2Fimage.png
+![sl2](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/b9149b51-f8ba-49c0-ba42-9187bb099f6c)
 
 - 한번 혼잡 현상이 발생하고 나면 혼잡 현상이 발생했던 cwnd 의 절반까지는 이전처럼 증가시키다가 그 이후부터는 완만하게 1씩 증가시킨다.
 - 즉, 임계 값(ssthresh, slow start threshold)을 절반으로 줄인다.
@@ -159,7 +158,7 @@ TCP 혼잡제어 알고리즘(TCP congestion control algorithm)은 다음의 중
 
 ### 4. 빠른 재전송
 
-!https://velog.velcdn.com/images%2Fchullll%2Fpost%2F0525c9e9-9686-4588-8c83-136e8624549e%2Fimage.png
+![fast](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/71847001-736b-48c5-8e86-6067e0d6146f)
 
 - 패킷을 받는 수신자 입장에서 세그먼트로 분할된 내용이 순서대로 도착하지 않는 경우가 있다.
 - 수신 측에서 패킷을 받을 때 먼저 올 패킷보다 다음 패킷이 먼저 도착해도 ACK 를 보냄
@@ -170,7 +169,7 @@ TCP 혼잡제어 알고리즘(TCP congestion control algorithm)은 다음의 중
 
 ### AIMD(Addictive Increase Multiplicative Decrease)
 
-!https://velog.velcdn.com/images%2Fchullll%2Fpost%2F7f6f3777-a305-411b-be15-c3caf9a782be%2Fimage.png
+![aimd](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/cdcfeddd-1cb6-449e-b074-57762b77efdb)
 
 - 합 증가/ 곱 감소 알고리즘 이라고도 한다.
 - 처음 패킷 하나를 보내 패킷이 문제없이 도착하면 CWND(Congestion Window, 혼잡 윈도우)를 1씩 증가시키면서 전송하는 방법
@@ -178,7 +177,7 @@ TCP 혼잡제어 알고리즘(TCP congestion control algorithm)은 다음의 중
 - 호스트가 하나의 네트워크를 공유하고 있으면 나중에 진입하는 쪽이 불리하지만 시간이 지날수록 평형 상태로 수렴한다
 - 단점은, 초기 넓은 대역폭을 활용하지 못하고 미리 혼잡 상태를 감지하지 못하고 혼잡해지고 나서야 대역폭을 줄이는 방식이라는 점이다.
 
-![udp.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ad6f97d0-173f-4a2a-be59-7d170c4d1666/09f478db-0591-4879-9dd4-12c1938fa13b/udp.png)
+![udp](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/718e7fb1-595f-4313-ac9c-b9968a8961e8)
 
 ### UDP 특징
 
