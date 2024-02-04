@@ -8,7 +8,7 @@
 - **TCP 세그먼트 코드 비트**
     - 연결의 제저 정보가 기록된다. 모두 0이 초깃값이며 활성 시 1로 변경된다.연결에 대한 비트는 SYN과 ACK가 사용된다.
 
-![Untitled](TCP%203%20-%204%20way%20handshake%200e907088409240b2b459033137ad5cc4/Untitled.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/468328e7-49f4-4a1a-87de-35c852290a31)
 
 ## 3-way handshake
 
@@ -22,7 +22,7 @@
 - 확인 응답 번호
     - 수신 측이 몇 번째 데이터를 수신했는지 송신 측에 알려주는 역할
 
-![Untitled](TCP%203%20-%204%20way%20handshake%200e907088409240b2b459033137ad5cc4/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/6c8863ed-f943-45b2-876a-00eca4cc5245)
 
 ### 요약
 
@@ -30,7 +30,7 @@
 2. Server → Client ( TCP SYN ACK )
 3. Client → Server ( TCP ACK ) ****
 
-![Untitled](TCP%203%20-%204%20way%20handshake%200e907088409240b2b459033137ad5cc4/Untitled%202.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/ca0f3fad-f1c9-489b-aeee-d59084838389)
 
 **1단계 : Client → Server**
 
@@ -82,7 +82,7 @@
 3. Server → Client (FIN) : 연결 종료 요청
 4. Client → Server (ACK) : 연결 종료 응답
 
-![Untitled](TCP%203%20-%204%20way%20handshake%200e907088409240b2b459033137ad5cc4/Untitled%203.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/d1e37583-2c35-4506-8eb3-ddf8b04b4f79)
 
 **1단계 : Client → Server**
 
