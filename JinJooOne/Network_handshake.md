@@ -1,5 +1,7 @@
 # TCP 3 - 4 way handshake
 
+[노션](https://daisy-atmosphere-561.notion.site/TCP-3-4-way-handshake-0e907088409240b2b459033137ad5cc4?pvs=4)
+
 ### TCP 연결 관리
 
 > TCP의 가장 큰 특징으로는 **신뢰적인 연결**이며 **연결 지향형**이라는 것이다.
