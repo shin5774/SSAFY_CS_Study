@@ -235,7 +235,7 @@ UDP는 데이터그램 방식으로 데이터를 전달한다.
     > **UDP**
     > 
     > 
-    > ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/93e932aa-238e-4c21-92c0-b3a86388ec72/b5d772d5-3d8a-465c-966e-a8a1e1ab9b61/Untitled.png)
+    > ![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20TCP%EC%99%80_UDP%EC%9D%98_%EC%B0%A8%EC%9D%B4/Untitled%20(4).png)
     > 
     > UDP 헤더는 2바이트씩 구성된 단 4개의 필드만을 갖는다.
     > 
