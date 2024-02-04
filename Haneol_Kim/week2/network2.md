@@ -25,7 +25,7 @@
 - **ACK(Acknowledgement)** : 보낸 시퀀스 번호에 TCP 계층에서의 길이 또는 양을 더한 것과 같은 값을 ACK에 포함하여 전송
     - 동기화 요청에 대한 답변 : `Client의 Sequence Number+1`을 하여 ACK로 돌려줍니다.
 
-!https://velog.velcdn.com/images%2Faverycode%2Fpost%2F22a2bab1-c8dd-4559-88b2-62d03cbff927%2F%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%E1%84%86%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B8-5.jpg
+![1](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/34803a25-855f-412d-8f06-04059a8434c7)
 
 - **Step 1 (SYN)**
     
@@ -95,7 +95,7 @@ TCP는 대부분의 connection-oriented 프로토콜과 같은 두 가지 연결
 > - Half-Close 기법을 사용하면 종료 요청자가 처음 보내는 FIN 패킷에 승인 번호를 함께 담아서 보내게 되는데, 이때 승인 번호의 의미는 **"일단 연결은 종료할건데 귀는 열어둘게. 이 승인 번호까지 처리했으니까 더 보낼 거 있으면 보내"** 가 됩니다.
 > - 이후 수신자가 남은 데이터를 모두 보내고 나면 다시 요청자에게 **FIN 패킷**을 보냄으로써 모든 데이터가 처리되었다는 신호 **(3) FIN**를 보냅니다. 그럼 요청자는 그때 나머지 반을 닫으면서 좀 더 안전하게 연결을 종료할 수 있게 됩니다.
 
-!https://velog.velcdn.com/images%2Faverycode%2Fpost%2F3ec34c06-3d54-45f3-a6fb-bc5bfb415001%2F%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%E1%84%86%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B8-6%202.jpg
+![2](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/5f19eba0-1a39-4240-8861-2a81d932b69c)
 
 - **STEP1 (Client → Server : FIN(+ACK)**
     - 서버와 클라이언트가 연결된 상태에서 클라이언트가 close()를 호출하여 접속을 끊는다.(으려한다.)
