@@ -224,7 +224,7 @@ UDP는 데이터그램 방식으로 데이터를 전달한다.
     
     **[전송 흐름]**
     
-    ![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20TCP%EC%99%80_UDP%EC%9D%98_%EC%B0%A8%EC%9D%B4/Untitled%20(3).png)
+    ![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20TCP%EC%99%80_UDP%EC%9D%98_%EC%B0%A8%EC%9D%B4/Untitled%20(6).png)
     
     TCP는 송신자와 수신자 사이에 계속해서 데이터 수신과 응답을 확인한다.
     
@@ -235,7 +235,7 @@ UDP는 데이터그램 방식으로 데이터를 전달한다.
     > **UDP**
     > 
     > 
-    > ![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20TCP%EC%99%80_UDP%EC%9D%98_%EC%B0%A8%EC%9D%B4/Untitled%20(4).png)
+    > ![Untitled](https://github.com/ksb3458/SSAFY_CS_Study/blob/main/Subin/%5Bimg%5D/%5Bimg%5D%20TCP%EC%99%80_UDP%EC%9D%98_%EC%B0%A8%EC%9D%B4/Untitled%20(3).png)
     > 
     > UDP 헤더는 2바이트씩 구성된 단 4개의 필드만을 갖는다.
     > 
