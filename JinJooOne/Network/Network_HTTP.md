@@ -70,7 +70,7 @@
 >
 - 프로세스들이 보내는 메시지는 네트워크를 통해 움직인다. 그리고 소켓을 통해 메시지를 보내고 받는다.
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/75374653-5287-4303-bf01-a64589d41aa7)
 
 - 즉 소켓에는 2가지 제어 측면이 있다. 애플리케이션 계층쪽과 전송 계층쪽 제어가 있다. 즉 애플리케이션 개발자는 소켓의 애플리케이션 계층 제어(통제)권을 가진다.
 
@@ -100,7 +100,7 @@
 >
 - **하이퍼텍스트** 방식으로 인터넷 상의 정보를 정의하고 교류할수 있는 시스템
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/80c9a1bb-de35-4b7e-9edf-1e08754cdd78)
 
 ## HTTP (HyperText Transfer Protocol)
 
