@@ -1,5 +1,7 @@
 # HTTP
 
+[노션](https://daisy-atmosphere-561.notion.site/HTTP-9ecee3e5496842b2a35c4499ce280e21?pvs=4)
+
 ### 네트워크
 
 > 2대 이상의 컴퓨터를 비롯한 통신 가능한 **기기들을 자원을 공유**할 수 있게 하는 **디지털 통신망**
