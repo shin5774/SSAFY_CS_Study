@@ -135,7 +135,7 @@
 
 ### URL & URI
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%202.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/71fc8d12-4355-4040-bc33-b82218ba929c)
 
 **URL (Uniform Resource Locator)**
 
@@ -189,7 +189,7 @@
 - 스케일 아웃에서는 분산에 따른 Side Effect를 조율하는 것이 중요하다.
 - 서버가 클라이언트의 상태를 전부 유지한다면 분산 시에도 해당 상태까지 이전해야 한다.
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%203.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/ed34cd39-d922-49cb-a39a-e9956f81bfd6)
 
 - **만약 클라이언트의 상태를 유지해야 한다면?**
 
@@ -207,7 +207,7 @@
 >
 - TCP / IP의 경우 기본적으로 연결을 지속적으로 유지한다.
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%204.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/08df8725-7be9-4c39-bdaa-1bc0489126a1)
 
 ### Connectionless
 
@@ -215,7 +215,7 @@
 >
 - 서버의 부하를 줄일 수 있고 서버 자원에 대한 관리가 효율적이다.
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%205.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/6d83565f-9fc0-47be-baec-9565ad1b4f08)
 
 **Connectionless의 한계 (비지속 연결 : non - persistent connection)**
 
@@ -223,7 +223,7 @@
   - TCP 버퍼와 TCP 변수가 양쪽에서 매번 유지 → 서버에 부하 발생
 2. 응답에 대해 **2RTT**가 필요하다.
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%206.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/87808222-36e6-46e1-b1f1-9c5aba03feb6)
 
 ### Persistent - Connection (지속 연결)
 
@@ -239,7 +239,7 @@
 > 하나의 Connection에서 응답을 기다리지 않고 순차적으로 여러 요청을 연속적으로 보내 순서에 밫줘 응답을 받는 방식
 >
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%207.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/4139d61a-db69-40a3-adbf-bf64b30556b0)
 
 ### HOL Blocking (Head Of Line Blocking)
 
@@ -254,7 +254,7 @@
 
 ### Request
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%208.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/99b38726-93be-4f91-abf4-cdcab6512b35)
 
 1. Request Line
   - Method Field , URL 필드 , HTTP 버전 필드
@@ -265,7 +265,7 @@
 
 ### Response
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%209.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/fff50bf3-abd6-4e42-aff4-d6ed21a908a4)
 
 1. Status Line
   - HTTP 버전 , 상태 코드 , 상태 코드에 대한 설명
@@ -322,7 +322,7 @@ Content-Type: application/json
 > 요청에 대한 응답 결과를 나타내는 3자리 숫자
 >
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%2010.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/a3a82c24-af75-4ac4-aaec-6792d476061f)
 
 ### 1XX
 
@@ -379,7 +379,7 @@ Content-Type: application/json
 
 - 이것은 캐시를 목적으로 사용됩니다. 이것은 클라이언트에게 응답이 수정되지 않았음을 알려주며, 그러므로 클라이언트는 계속해서 응답의 캐시된 버전을 사용
 
-![Untitled](HTTP%209ecee3e5496842b2a35c4499ce280e21/Untitled%2011.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/8905e324-3116-4749-b99c-29a6c7a05121)
 
 ### 4XX ( Client Error Responses)
 
