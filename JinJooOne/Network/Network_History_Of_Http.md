@@ -1,5 +1,7 @@
 # History Of HTTP
 
+[노션](https://daisy-atmosphere-561.notion.site/History-Of-HTTP-c4faa6eba0784f8d896b98892b6518be?pvs=4)
+
 ### HTTP/0.9
 
 - **원 - 라인 프로토콜**
@@ -68,14 +70,14 @@ A page with an image
 - **HTTP/1.1:** 주로 텍스트 형식으로 데이터를 인코딩 , 헤더와 본문은 일반적으로 텍스트로 표현되며, MIME 타입과 함께 전송
 - **HTTP/2.0:** 데이터는 이진 형식으로 인코딩됩니다. 헤더와 데이터는 이진으로 인코딩되어 전송되므로, 사람이 직접 읽기 어렵습니다.
 
-![Untitled](History%20Of%20HTTP%20c4faa6eba0784f8d896b98892b6518be/Untitled.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/4094263c-ce06-46ca-bcf0-239798d631a9)
 
 **헤더 압축**
 
 - **HTTP/1.1:** 헤더는 텍스트 형식으로 전송되며, 중복되는 헤더 필드들이 매번 전송되기 때문에 오버헤드가 발생할 수 있습니다.
 - **HTTP/2.0:** 헤더 압축이 도입되어 **중복 데이터를 최소화**하고 효율적으로 전송 , 헤더는 이진 형식으로 전송되고 압축 알고리즘에 의해 압축된 상태로 전송되어 더 적은 대역폭을 사용
 
-![Untitled](History%20Of%20HTTP%20c4faa6eba0784f8d896b98892b6518be/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/c3cbd2ca-6f75-4b0e-b171-116f03eddbba)
 
 - 연속적으로 요청되는 HTTP 메시지들 : 헤더값에 중복 발생
 - Static Dynamic Table 개념 도입 → 중복 헤더 검출
@@ -92,7 +94,7 @@ A page with an image
 > HTTP Request → Frame → Message → 특정 Stream에 종속 → **여러개의 Stream이 1개의 Connection에 속하게 되는 구조**
 >
 
-![Untitled](History%20Of%20HTTP%20c4faa6eba0784f8d896b98892b6518be/Untitled%202.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/d86db7dd-ebed-496e-b313-0faa200e79eb)
 
 - 하나의 Connection 내에서 스트림들이 병렬적으로 처리 → **속도 향상**
 
@@ -114,7 +116,7 @@ A page with an image
         - 각각의 스트림은 1-256 까지의 가중치를 갖음
         - 하나의 스트림은 다른 스트림에게 명확한 의존성
 
-![Untitled](History%20Of%20HTTP%20c4faa6eba0784f8d896b98892b6518be/Untitled%203.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/25be4460-d975-4b23-a309-233a167dddfa)
 
 - 우선순위 적용시
     1. 클라이언트는 서버에 요청 시 요청 시 **자원에 가중치 우선순위 지정** 후 전송
@@ -150,14 +152,14 @@ A page with an image
 > QUIC 프로토콜이 TCP/IP 4계층에도 동작시키기 위해 설계된 것이 바로 HTTP 3.0
 >
 
-![Untitled](History%20Of%20HTTP%20c4faa6eba0784f8d896b98892b6518be/Untitled%204.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/560fb315-35e0-41d9-b18e-68b1f8177744)
 
 ## QUIC
 
 > 구글에서 만든 **UDP 기반의 전송 계층 프로토콜**
 >
 
-![Untitled](History%20Of%20HTTP%20c4faa6eba0784f8d896b98892b6518be/Untitled%205.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/7456abe1-dc3a-4c62-8867-30234b3d60fc)
 
 ### Why UDP
 
@@ -172,11 +174,12 @@ A page with an image
 
 1. **독립 스트림**
 
-![Untitled](History%20Of%20HTTP%20c4faa6eba0784f8d896b98892b6518be/Untitled%206.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/f7d0fc5b-908c-485f-a9b5-e270615de67b)
 
 - 요청별로 다른 스트림을 사용
     - 특정 요청이 지연 처리되더라도 다른 요청은 처리된다.
-1. **RTT 최소화**
+
+2. **RTT 최소화**
     - 첫 연결 설정에서 필요한 정보 + 데이터 전송
         - QUIC은 참고로 첫 연결 설정에 TLS 연결까지 완료 (내부 탑재)
     - 연결 설정을 캐싱하여 다음 연결 때 재사용
@@ -184,8 +187,7 @@ A page with an image
         - 인터넷 권역이 바뀌더라도 부가적인 TLS 연결은 불필요하다.
             - 기존에 IP와 Port번호로 구분하던 체계를 변경
 
-      ![Untitled](History%20Of%20HTTP%20c4faa6eba0784f8d896b98892b6518be/Untitled%207.png)
-
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/e8a1e263-bdaa-4f7b-9888-1c24450046f2)
 
 ### 참고
 
