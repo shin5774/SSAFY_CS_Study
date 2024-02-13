@@ -136,14 +136,12 @@ TCP 혼잡제어 알고리즘(TCP congestion control algorithm)은 다음의 중
 
 - 전송 성공 시 ACK 패킷마다 cwnd를 1씩 증가시킨다. 즉, 한 주기가 끝나고 나면 cwnd는 2배배가 된다.
 - 혼잡 현상이 발생하면 cwnd 를 1로 떨어뜨린다.
-
-![sl2](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/b9149b51-f8ba-49c0-ba42-9187bb099f6c)
-
 - 한번 혼잡 현상이 발생하고 나면 혼잡 현상이 발생했던 cwnd 의 절반까지는 이전처럼 증가시키다가 그 이후부터는 완만하게 1씩 증가시킨다.
 - 즉, 임계 값(ssthresh, slow start threshold)을 절반으로 줄인다.
 - 매 전송마다 2배씩 증가하기 때문에 데이터의 크기가 지수함수적으로 증가한다.
 - 파악한 임계 값에 도달하기 전까지 2배씩 증가, 임계값 도달 시 혼잡 회피 단계로 넘어간다.
 
+![fast](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/71847001-736b-48c5-8e86-6067e0d6146f)
 ### 2. 혼잡 회피
 
 - 윈도우 크기가 임계 값에 도달한 이후에는 데이터의 손실이 발생할 크기가 올라감
@@ -158,7 +156,6 @@ TCP 혼잡제어 알고리즘(TCP congestion control algorithm)은 다음의 중
 
 ### 4. 빠른 재전송
 
-![fast](https://github.com/shin5774/SSAFY_CS_Study/assets/70622601/71847001-736b-48c5-8e86-6067e0d6146f)
 
 - 패킷을 받는 수신자 입장에서 세그먼트로 분할된 내용이 순서대로 도착하지 않는 경우가 있다.
 - 수신 측에서 패킷을 받을 때 먼저 올 패킷보다 다음 패킷이 먼저 도착해도 ACK 를 보냄
