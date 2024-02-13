@@ -7,7 +7,7 @@ Notion : https://insidious-curler-f3b.notion.site/HTTP-32a76b10651f4a36b1b5e9e00
 > HTTP(Hypertext Transfer Protocol)는 **서버와 클라이언트가 TCP/IP 통신 위에서 메시지를 교환하기 위해 사용되는 프로토콜이다.**
 > 
 
-![Untitled](../img/client_server.png)
+![image](https://github.com/taehyeoon/SSAFY_CS_Study/assets/66001138/00b11424-25c0-473f-918e-1ef317e0f99c)
 
 - 애플리케이션 레벨의 프로토콜(7계층)로 **TCP/IP위에서 작동**한다.
 - HTTP는 **어떤 종류의 데이터든지 전송**할 수 있도록 설계돼 있다.
