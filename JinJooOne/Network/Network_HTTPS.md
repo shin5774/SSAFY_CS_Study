@@ -15,7 +15,7 @@
 
 1. 사이트에 보내는 정보를 탈취당해도 **보안성**을 챙기기 위해
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/9d7a95cf-4c5a-4c7b-93b9-1663a0a56633)
 
 - HTTP를 통해 특정 사이트의 ID와 Password를 전송한다 했을 때 중간에 해당 정보가 탈취된다면 보안에 심각한 문제가 발생한다.
 - HTTPS를 사용할경우 사용자가 전송하는 정보가 암호화되기 때문에 **중간에 탈취당하더라도 보안성이 증가**한다.
@@ -39,7 +39,7 @@
 >
 - 하나의 키로 암호화와 복호화를 수행
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled%201.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/bc0d4e32-0c1f-4257-98e8-899dd0cff4d5)
 
 **장점**
 
@@ -62,7 +62,7 @@
 - 암호화에 사용되는 공개키는 외부에 노출되어 있다.
 - 복호화에 사용되는 비밀키는 공개되지 않는다.
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled%202.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/497e373f-f39e-4863-8012-40e6dbea45df)
 
 **장점**
 
@@ -95,30 +95,30 @@
 >
 1. 클라이언트는 서버에 접속 요청
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled%203.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/378b0d64-4025-434d-9f6f-123f52018f4b)
 
 1. 서버는 클라이언트에게 **공개키 전송**
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled%204.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/595ea6d3-cbd6-429a-b9ac-2bc8c85f4efa)
 
 1. 클라이언트는 **전송받은 공개키로 자신의 대칭키 암호화** 하여 전송
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled%205.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/ccc95eb4-194b-4b04-8de2-1c3146d2fbaa)
 
 1. 서버는 전송받은 **대칭키를 자신의 개인키로 복호화**
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled%206.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/c3573675-83f3-4c00-a64f-8bd0540f1ed9)
 
 1. 해당 대칭키로 통신
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled%207.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/79c15fb3-efb0-4e52-8562-5135680d1859)
 
 ### 공개키에 대한 검증
 
 - 이 과정에 있어 전송된 공개키가 올바른 공개키인지에 대한 확인이 필요하다.
 - 해당 검증은 **CA (Certificate Authority)**라는 검증된 기관에서 수행한다.
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled%208.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/1b1460c4-ee01-4a21-a1c0-59852f49fa22)
 
 ### CA
 
@@ -136,7 +136,7 @@
 > 위에서 CA를 통해 서버의 인증서에서 클라이언트가 공개키를 제공받는 방법을 기술했다. 이러한 과정은 구체적으로 SSL / TLS Handshaking 과정을 거치게 된다.
 >
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled%209.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/c6750253-b836-4de9-b2ec-1414e2405e7a)
 
 - **파란색으로 색칠된 과정**은 익숙한 **TCP 3-way Handshaking**이다.
 - **노란색으로 색칠된 과정**이 **SSL Handshaking**이다.
@@ -146,7 +146,7 @@
 - 클라이언트는 서버에 **Cipher Suite 목록** , **Session ID**, **SSL Protocol Version** , **Random Byte** 전달
     - Cipher Suite의 알고리즘에 따라 데이터를 암호화한다.
 
-![Untitled](HTTPS%20fc6a686c68244700b13398f13aeb04fb/Untitled%2010.png)
+![image](https://github.com/jinjoo-lab/SSAFY_CS_Study/assets/84346055/71dbd331-3b65-4938-a1b3-e1eca6d8bf5a)
 
 **2 - 1 : Server Hello**
 
