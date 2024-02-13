@@ -1,5 +1,7 @@
 # HTTPS
 
+[노션](https://daisy-atmosphere-561.notion.site/HTTPS-fc6a686c68244700b13398f13aeb04fb?pvs=4)
+
 ### 서론
 
 > 당당하게 말하겠다. 나는 보안을 싫어한다. 정확히는 보안 공부하는 걸 싫어한다. 보안 공부할거였으면… 대학원을 갔겠지 ㅡㅡ;;
