@@ -1,8 +1,8 @@
 # SSAFY_CS_Study
 
-### 🎯 진행 방식
+![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/c90a9b03-2496-4d85-b455-d14bf4dcffaa)
 
-스터디 노션 : 
+### 🎯 진행 방식
 
 시간: 매주 목요일
 
