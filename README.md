@@ -34,6 +34,6 @@
 
 
 ## 멤버 소개
-|신권일|진주원|정연서|김한얼|김수빈|이태현|
-|:----:|:----:|:----:|:----:|:----:|
-
+|진주원|신권일|정연서|김수빈|김한얼|이태현|
+|:----:|:----:|:----:|:----:|:----:|:----:|
+|[@jinjoo-lab](https://github.com/jinjoo-lab)|[@shin5774](https://github.com/shin5774)|[@yeondori](https://github.com/yeondori)|[@ksb3458](https://github.com/ksb3458)|[@yulmam](https://github.com/yulmam)|[@taehyeoon](https://github.com/taehyeoon)|
