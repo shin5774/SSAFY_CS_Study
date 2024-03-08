@@ -4,6 +4,8 @@
 
 ### 🎯 진행 방식
 
+노션: [노션](https://daisy-atmosphere-561.notion.site/SSAFY_CS_Study-f1610f222c93457ba13ed478955605ca?pvs=4)
+
 시간: 매주 목요일
 
 장소: 역삼
