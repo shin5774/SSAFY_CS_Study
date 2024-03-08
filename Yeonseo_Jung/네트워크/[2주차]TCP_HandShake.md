@@ -38,8 +38,7 @@ Sequence Number는 임의의 랜덤 숫자로 지정하고, SYN 플래그 비트
 접속 요청을 받은 서버가 요청을 수락했으며, 접속 요청 프로세스인 클라이언트도 포트를 열어달라는 메시지 전송(SYN-ACK signal bits set)
 
    ACK Number필드는 Sequence Number + 1로 지정하고 SYN과 ACK 플래그 비트를 1로 설정한 새그먼트를 전송
-   
-클라이언트는 `CLOSED` 상태   
+
 서버는 `SYN_RECEIVED` 상태  
 
 #### STEP 3. ACK
