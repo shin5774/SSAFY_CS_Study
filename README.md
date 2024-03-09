@@ -40,9 +40,4 @@
 |:----:|:----:|:----:|:----:|:----:|:----:|
 |[@jinjoo-lab](https://github.com/jinjoo-lab)|[@shin5774](https://github.com/shin5774)|[@yeondori](https://github.com/yeondori)|[@ksb3458](https://github.com/ksb3458)|[@yulmam](https://github.com/yulmam)|[@taehyeoon](https://github.com/taehyeoon)|
 |:----:|:----:|:----:|:----:|:----:|:----:|
-|![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612){: width="100" height="100"}|
-|![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612){: width="100" height="100"}|
-|![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612){: width="100" height="100"}|
-|![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612){: width="100" height="100"}|
-|![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612){: width="100" height="100"}|
-|![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612){: width="100" height="100"}|
+|![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)||![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)||![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)||![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)||![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)||![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)|
