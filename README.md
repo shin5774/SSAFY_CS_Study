@@ -39,3 +39,5 @@
 |진주원|신권일|정연서|김수빈|김한얼|이태현|
 |:----:|:----:|:----:|:----:|:----:|:----:|
 |[@jinjoo-lab](https://github.com/jinjoo-lab)|[@shin5774](https://github.com/shin5774)|[@yeondori](https://github.com/yeondori)|[@ksb3458](https://github.com/ksb3458)|[@yulmam](https://github.com/yulmam)|[@taehyeoon](https://github.com/taehyeoon)|
+|:----:|:----:|:----:|:----:|:----:|:----:|
+|![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)||![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)||![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)||![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)||![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)||![image](https://github.com/shin5774/SSAFY_CS_Study/assets/84346055/8cd3291f-6243-4170-a5e4-1266d2d70612)|
